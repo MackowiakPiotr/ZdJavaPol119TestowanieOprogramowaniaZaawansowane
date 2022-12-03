@@ -1,0 +1,3 @@
+pawel,dudko,@outlook.com;
+ewa,kowalska-nowak,ewakowalskagmail.com;
+ala,nowak,ala@;
