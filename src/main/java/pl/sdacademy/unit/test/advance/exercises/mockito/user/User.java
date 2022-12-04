@@ -7,6 +7,18 @@ public class User {
     private String firstName;
     private String lastName;
 
+    public Long getId() {
+        return id;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
     public User(Long id, String firstName, String lastName) {
         this.id = id;
         this.firstName = firstName;
