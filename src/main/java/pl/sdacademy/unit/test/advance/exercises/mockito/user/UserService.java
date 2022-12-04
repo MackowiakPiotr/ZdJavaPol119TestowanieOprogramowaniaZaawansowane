@@ -14,7 +14,7 @@ public class UserService {
     }
 
     public UserDto createUser(final User user) {
-        if (userValidator.isUserValid(user)) {
+        if(userValidator.isUserValid(user)) {
             UserDto userDto =
                     new UserDto(user.getFirstName(), user.getLastName().toUpperCase());
             return userRepository.addUser(userDto);

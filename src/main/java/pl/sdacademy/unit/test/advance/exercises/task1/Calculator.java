@@ -16,7 +16,7 @@ public class Calculator {
 
     public int divide(int firstDigit, int secondDigit) {
         //return firstDigit / secondDigit;
-        if (secondDigit == 0) {
+        if(secondDigit == 0) {
             throw new IllegalArgumentException("Can't divide by 0");
         }
         return firstDigit / secondDigit;

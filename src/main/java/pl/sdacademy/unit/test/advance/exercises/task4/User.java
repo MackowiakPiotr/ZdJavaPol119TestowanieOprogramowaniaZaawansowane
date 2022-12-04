@@ -12,13 +12,13 @@ public class User {
     }
 
     public boolean valid() {
-        if (!this.validName()) {
+        if(!this.validName()) {
             throw new IllegalArgumentException("bad name");
         }
-        if (!this.validSurname()) {
+        if(!this.validSurname()) {
             throw new IllegalArgumentException("bad surname");
         }
-        if (!this.validEmail()) {
+        if(!this.validEmail()) {
             throw new IllegalArgumentException("bad email");
         }
         return true;

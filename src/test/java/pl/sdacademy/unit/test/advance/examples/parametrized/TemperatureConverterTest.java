@@ -2,7 +2,6 @@ package pl.sdacademy.unit.test.advance.examples.parametrized;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.EnumSource;
-import pl.sdacademy.unit.test.advance.examples.parametrized.TemperatureConverter;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
